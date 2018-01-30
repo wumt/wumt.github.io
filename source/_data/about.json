@@ -1,0 +1,37 @@
+{
+    "avatar": "http://ww2.sinaimg.cn/small/74990035jw1f1rjkd681bj20rs0rsdhg.jpg",
+    "name": "吴艾伦",
+	"tag": "运维攻城师/docker/python/技术宅",
+    "desc": "蝴蝶飞不过沧海，没有谁忍心责怪。不是蝴蝶飞不过沧海，而是海的那边已没有了等待。",
+    "skills": {
+        "Linux": 8,
+		"Docker": 6,
+		
+                "Rancher": 6,
+
+                "Shell": 4,
+
+                "Python": 4,
+
+		"Kubernates": 3
+    },
+    "projects": [{
+		"name": "你的项目A",
+		"image": "https://d13yacurqjgara.cloudfront.net/users/138819/screenshots/2578899/dribbble_800x600_01_1x.png",
+		"tags": ["2018年", "项目标签"],
+		"description": "你的项目A的简介",
+		"link_text": "网站链接",
+		"link": "https://dribbble.com/"
+	}, {
+		"name": "我的Github",
+		"image": "https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg",
+		"description": "欢迎大家follow我，我会继续努力的",
+		"tags": ["Github", "开发"],
+		"link_text": "Github地址",
+		"link": "https://github.com/wumt"
+	}],
+	"reward": [
+	    "http://opq3tfjkf.bkt.clouddn.com/weixin.jpg",
+		"http://opq3tfjkf.bkt.clouddn.com/zhifubao.jpg"
+	]
+}

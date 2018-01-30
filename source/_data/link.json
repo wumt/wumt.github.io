@@ -1,0 +1,11 @@
+{
+    "social": {
+        "weibo": "https://weibo.com/210007697",
+        "github": "https://github.com/wumt",
+		"rss": "/atom.xml"
+    },
+    "extern": {
+	        "作者的技术博客": "https://wumt.github.io/",
+		"Github地址（友情链接）": "https://github.com/"
+    }
+}
