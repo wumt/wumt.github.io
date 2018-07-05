@@ -7,7 +7,7 @@
 
     
 
-    <title>Alan</title>
+    <title>Docker和DaoCloud纯小白入门手册 | Alan</title>
     <meta name="author" content="Alan">
     
     <meta name="description" content="蝴蝶飞不过沧海，没有谁忍心责怪。不是蝴蝶飞不过沧海，而是海的那边已没有了等待。">
@@ -15,7 +15,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+    <meta property="og:title" content="Docker和DaoCloud纯小白入门手册"/>
     <meta property="og:site_name" content="小吴老师"/>
 
     
@@ -186,6 +186,22 @@
         
 
             <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/容器/">
+                    容器 <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/容器/kubernates/">
+                    kubernates <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
                 <a class="no-padding" href="/categories/Linux/">
                     Linux <span class="right">2 篇</span></a>
                 </a>
@@ -196,22 +212,6 @@
             <li class="collapse-level-1" collapse-level="1">
                 <a class="no-padding" href="/categories/Linux/命令学习/">
                     命令学习 <span class="right">2 篇</span></a>
-                </a>
-            </li>
-
-        
-
-            <li class="collapse-level-0" collapse-level="0">
-                <a class="no-padding" href="/categories/容器/">
-                    容器 <span class="right">1 篇</span></a>
-                </a>
-            </li>
-
-        
-
-            <li class="collapse-level-1" collapse-level="1">
-                <a class="no-padding" href="/categories/容器/kubernates/">
-                    kubernates <span class="right">1 篇</span></a>
                 </a>
             </li>
 
@@ -261,6 +261,10 @@
         <span class="breadcrumb">当前位置（分类目录）</span>
         
             
+    
+    
+    <a class="breadcrumb" href="/categories/容器/">容器</a><a class="breadcrumb" href="/categories/容器/kubernates/">kubernates</a>
+
 
         
 
@@ -276,12 +280,12 @@
             <div class="article-title">
                 
     
-        <h1>无题</h1>
+        <h1>Docker和DaoCloud纯小白入门手册</h1>
     
 
 
             </div>
-            <time class="light-green-link-context" datetime="2018-07-05T03:10:10.309Z"><a href="/2018/07/05/Docker和DaoCloud纯小白入门手册/">2018-07-05</a></time>
+            <time class="light-green-link-context" datetime="2018-07-05T00:57:38.000Z"><a href="/2018/07/05/Docker和DaoCloud纯小白入门手册/">2018-07-05</a></time>
 
             <span id="busuanzi_container_page_pv" class="read-times-container">
     <i class="fa fa-eye"></i>
@@ -289,6 +293,16 @@
 </span>
 
             
+    <div class="tags-row">
+        
+            <a href="/tags/docker/" class="chip light-green">docker</a>
+        
+            <a href="/tags/k8s/" class="chip light-green">k8s</a>
+        
+            <a href="/tags/kubernates/" class="chip light-green">kubernates</a>
+        
+    </div>
+
 
             <div class="toc light-green-link-context hide-on-med-and-down">
     <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#Docker和DaoCloud纯小白入门手册"><span class="section table-of-contents-text">Docker和DaoCloud纯小白入门手册</span></a><ol class="section table-of-contents-child"><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#原始时代"><span class="section table-of-contents-text">原始时代</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#解决原始时代的问题"><span class="section table-of-contents-text">解决原始时代的问题</span></a><ol class="section table-of-contents-child"><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#Docker-image与Docker-file"><span class="section table-of-contents-text">Docker image与Docker file</span></a></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#Docker-node与Docker-container"><span class="section table-of-contents-text">Docker node与Docker container</span></a></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#DaoCloud的舞台"><span class="section table-of-contents-text">DaoCloud的舞台</span></a></li></ol></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#与DaoCloud共舞"><span class="section table-of-contents-text">与DaoCloud共舞</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#注意事项"><span class="section table-of-contents-text">注意事项</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#尾声"><span class="section table-of-contents-text">尾声</span></a></li></ol></li></ol>
@@ -372,11 +386,17 @@
 <p>作者：Adrian Zhang，adrian@favap.com<br>2015-08-24 V2.0</p>
 
                 
+<p class="light-green-link-context">
+    <a href="/2018/07/05/进击的Linux--du/" rel="next" title="进击的Linux-du">
+    上一篇：进击的Linux-du
+  </a>
+</p>
+
 
 
 <p class="light-green-link-context">
-    <a href="/2018/07/05/进击的Linux--du/" rel="next" title="进击的Linux-du">
-    下一篇：进击的Linux-du
+    <a href="/2018/03/07/Percona配置文件/" rel="next" title="Percona配置文件">
+    下一篇：Percona配置文件
   </a>
 </p>
 

@@ -3,7 +3,36 @@
   
     
     <entry>
-      <title></title>
+      <title><![CDATA[进击的Linux-du]]></title>
+      <url>/2018/07/05/%E8%BF%9B%E5%87%BB%E7%9A%84Linux--du/</url>
+      <content type="html"><![CDATA[<p>#进击的Linux–du<br><strong>查找文件夹下最大的目录,显示前十个</strong><br><a id="more"></a><br>    du -a /home | sort -n -r | head -n 10</p>
+<p><strong>查询当前目录大小</strong></p>
+<pre><code>du -sh *
+</code></pre>]]></content>
+      
+        <categories>
+            
+            <category> Linux </category>
+            
+            <category> 命令学习 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> shell </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> command </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Docker和DaoCloud纯小白入门手册]]></title>
       <url>/2018/07/05/Docker%E5%92%8CDaoCloud%E7%BA%AF%E5%B0%8F%E7%99%BD%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C/</url>
       <content type="html"><![CDATA[<h1 id="Docker和DaoCloud纯小白入门手册"><a href="#Docker和DaoCloud纯小白入门手册" class="headerlink" title="Docker和DaoCloud纯小白入门手册"></a><a href="http://www.docker.com" target="_blank" rel="noopener">Docker</a>和<a href="https://account.daocloud.io/signup?invite_code=nsvv3jvpfve4ejlapnze" target="_blank" rel="noopener">DaoCloud</a>纯小白入门手册</h1><blockquote>
 <p>一天，乔布斯走进了拉里.凯尼恩(Larry Kenyan)的办公隔间，他是负责麦金塔电脑操作系统的工程师，乔布斯抱怨说开机启动时间太长了。凯尼恩开始解释，但乔布斯打断了他。他问道：“如果能救人一命的话，你愿意想办法让启动时间缩短10秒钟吗？”凯尼恩说也许可以。乔布斯于是走到一块白板前开始演示，如果有500万人使用Mac，而每天开机都要多用10秒钟，那加起来每年就要浪费大约3亿分钟，而3亿分钟相当于至少100个人的终身寿命。“这番话让拉里十分震惊，几周过后，乔布斯再来看的时候，启动时间缩短了28秒，”阿特金森回忆说，“史蒂夫能看到宏观层面，从而激励别人工作。” </p>
@@ -81,33 +110,22 @@
 <p>作者：Adrian Zhang，adrian@favap.com<br>2015-08-24 V2.0</p>
 ]]></content>
       
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[进击的Linux-du]]></title>
-      <url>/2018/07/05/%E8%BF%9B%E5%87%BB%E7%9A%84Linux--du/</url>
-      <content type="html"><![CDATA[<p>#进击的Linux–du<br><strong>查找文件夹下最大的目录,显示前十个</strong><br><a id="more"></a><br>    du -a /home | sort -n -r | head -n 10</p>
-<p><strong>查询当前目录大小</strong></p>
-<pre><code>du -sh *
-</code></pre>]]></content>
-      
         <categories>
             
-            <category> Linux </category>
+            <category> 容器 </category>
             
-            <category> 命令学习 </category>
+            <category> kubernates </category>
             
         </categories>
         
         
         <tags>
             
-            <tag> shell </tag>
+            <tag> docker </tag>
             
-            <tag> Linux </tag>
+            <tag> k8s </tag>
             
-            <tag> command </tag>
+            <tag> kubernates </tag>
             
         </tags>
         
